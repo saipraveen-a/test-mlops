@@ -6,8 +6,8 @@ on:
       - '.github/workflows/setup.yml'
  
 env:
-  AZURE_RESOURCE_GROUP: sai-rg 
-  STORAGE_ACCOUNT: githubmlopstest
+  AZURE_RESOURCE_GROUP: sai-ml-rg
+  #STORAGE_ACCOUNT: githubmlopstest
       
 jobs:
   deployment:
